@@ -1,2 +1,5 @@
 console.log("Hola mundo!");
-let edad = prompt("Dame tu edad");
+
+btnSaludo.addEventListener('click', ()=>{
+    alert(`Hola, ${txtName.value}!!!`);
+})
